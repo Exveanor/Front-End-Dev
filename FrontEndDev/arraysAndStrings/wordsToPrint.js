@@ -11,4 +11,7 @@ function wordsToPrint (textToProcess) {
 }
 
 wordsToPrint ('Nowadays everyone uses # to tag a #special word in #socialMedia');
-wordsToPrint ();
+
+console.log('------------------');
+
+wordsToPrint ('The symbol # is known #variously in English-speaking #regions as the #number sign');
