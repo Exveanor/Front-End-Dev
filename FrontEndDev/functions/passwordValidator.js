@@ -7,7 +7,7 @@ function passwordValidator (password) {
 
     function isAlphanumeric(text) {
 
-        let regex = /[a-zA-Z0-9]+/gm;
+        let regex = /^[a-zA-Z0-9]+$/;
         let isCorrect = regex.test(text);
 
         return isCorrect;
@@ -43,6 +43,12 @@ function passwordValidator (password) {
         console.log("Password must have at least 2 digits");
     }
 
+    if(validLength && validNumeric && validDigitsCount) {
+
+        console.log("Password is valid");
+
+    }
+
 }
 
-passwordValidator ("lo%Ing!");
+passwordValidator ("Mypass123");
