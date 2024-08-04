@@ -1,3 +1,15 @@
 .main-nav ul {
     display: flex;
 }
+
+.main-nav li {
+    display: block;
+}
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    color: #fbe4d8;
+    padding: 0.5em 1.5em;
+    border-radius: 0.3em;
+}
