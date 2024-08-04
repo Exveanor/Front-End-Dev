@@ -2,3 +2,55 @@ html {
     font: 16px/1.4 Georgia, 'Times New Roman', Times, serif;
     
 }
+
+body, table, input, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+h1 {font-size: 3.0em;}
+h2 {font-size: 2.4em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em; font-weight: bold;}
+h6 {font-size: 1em; font-weight: bold;}
+
+p, * + ul, * + ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+blockquote {
+    border-left: 3px solid #ccc;
+    margin-bottom: 1.5em;
+    margin-left: 0.8em;
+    font-style: italic;
+    color: #666;
+}
+
+blockquote p {
+    margin-left: 1em;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+}
+
+blockquote p.author:before {
+    display: inline-block;
+    content: '—' ;
+    padding-right: 0.5em;
+}
