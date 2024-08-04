@@ -1,7 +1,6 @@
 html {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font: 16px/1.4 Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 p {
