@@ -70,3 +70,10 @@ blockquote p.author:before {
     content: '—' ;
     padding-right: 0.5em;
 }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
