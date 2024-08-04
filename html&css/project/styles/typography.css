@@ -1,6 +1,22 @@
 html {
-    font: 16px/1.4 Georgia, 'Times New Roman', Times, serif;
+    font: 12px/1.4 Georgia, 'Times New Roman', Times, serif;
     
+}
+
+@media (min-width: 600px) {
+    html { font-size: 14px;}
+}
+
+@media (min-width: 900px) {
+    html { font-size: 16px;}
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 18px;}
+}
+
+@media (min-width: 1400px) {
+    html { font-size: 20px;}
 }
 
 body, table, input, button {
